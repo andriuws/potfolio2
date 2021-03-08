@@ -26,9 +26,9 @@
   height: auto;
   position: fixed;
   z-index: 8;
-  bottom: 13px;
-  left: 10px;
-  padding: 5px;
+  bottom: 4px;
+  left: 7px;
+  padding: 6px;
   margin: 0px;
 }
 @media (max-width: 360px) {
@@ -46,7 +46,7 @@
   z-index: 8;
   transition: .3s;
   margin: 10px;
-  padding: 0px;
+  padding: 7px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -65,8 +65,8 @@
   align-content: center;
   width: 50px;
   height: 50px;
-  top: 16px;
-  left: 16px;
+  top: 15px;
+  left: 17px;
   border-radius: 50%;
   transition: .3s;
   background-color: #77bb4a;
@@ -83,7 +83,7 @@
   height: auto;
   padding: 10px;
   bottom: 85px;
-  left: 20px;
+  left: 6px;
   transition: .5s;
   border-radius: 10px;
   background-color: white;
@@ -108,8 +108,7 @@
 .popup-whatsapp > .content-whatsapp.-top p {
   color: #585858;
   font-family: 'Roboto';
-  display: inline-block;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.0em;
 }
 .popup-whatsapp > .content-whatsapp.-bottom {
@@ -128,13 +127,13 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #4cc370;
+  background-color: green;
   -webkit-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
 }
 .closePopup:hover {
-  background-color: #3d9e5a;
+  background-color: #4cc370;
   transition: .3s;
 }
 
@@ -169,7 +168,7 @@ input.whats-input[type=text] {
   width: 250px;
   height: 40px;
   box-sizing: border-box;
-  border: 5px solid #ffffff;
+  border: 0px solid #ffffff;
   border-radius: 20px;
   font-size: 1em;
   background-color: #ffffff;
@@ -179,7 +178,7 @@ input.whats-input[type=text] {
   outline: none;
   transition: .3s;
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   input.whats-input[type=text] {
     width: 225px;
   }
