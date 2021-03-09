@@ -1,5 +1,6 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -83,7 +84,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -114,10 +115,11 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
     margin-left: 25px;
     transition: color 0.3s ease;
+    letter-spacing: 1px;
 }
 .navbar .menu li a:hover{
     color: green;
@@ -326,6 +328,7 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid green;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .skills .skills-content .left a:hover{
     color: green;
